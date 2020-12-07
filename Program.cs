@@ -9,7 +9,7 @@ namespace EmailPincodeValidation
         {
             Console.WriteLine("***Welcome To Email_Pincode Validation***");
             Validation val = new Validation();
-            Console.Write("Enter Pincode : ");
+            Console.Write("Enter Pincode: ");
             string pincode = Console.ReadLine();
             Console.WriteLine(val.PincodeVal(pincode));
         }
