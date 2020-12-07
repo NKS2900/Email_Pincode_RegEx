@@ -7,7 +7,7 @@ namespace EmailPincodeValidation
 {
     class Validation
     {
-        public static string pin = "^[0-9]{6}$";
+        public static string pin = "^[0-9]{3}[ ][0-9]{3}$";
         public bool PincodeVal(string pincod)
         {
             Regex Pn = new Regex(pin);
